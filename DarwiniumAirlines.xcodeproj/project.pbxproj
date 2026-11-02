@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E635729765CAE0EF8CE9C4A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F1E791C00B1A7F9B57B2D /* RootView.swift */; };
+		0F3D4F8DDBEB4D116B14D4CA /* Pods_DarwiniumAirlines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5F1586BCBCCA5D9B78BF97 /* Pods_DarwiniumAirlines.framework */; };
+		1C04295D1B261F3F65CBE3D5 /* BookingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F1FBF31BFF175C99EEFA5 /* BookingViews.swift */; };
+		286C957ED01B92177E05D89F /* DwnProfiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00035F1EF31A4B2DF5BE6F3 /* DwnProfiler.swift */; };
+		4571D2D6103F014260611D6A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074AF0FE8B1D1FE0927CF1D /* Models.swift */; };
+		61143D204C27D8A3AD22D48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BB636196F91ED59D7A4919 /* Assets.xcassets */; };
+		749DB40B66DE6CFAE66DC543 /* DarwiniumAirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F735CC245ADC58D791F52 /* DarwiniumAirlinesApp.swift */; };
+		87DADC4CD677CBC222232DF4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CE227DC39536AFA64AB3B /* AppState.swift */; };
+		99736B22A0B4F1BAA266570C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1DE2BCE8A31745B752BA5 /* Theme.swift */; };
+		C45334068B2EC881FD08D5E0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56835FADD746563E249C8753 /* HomeView.swift */; };
+		C566B06D6A81812AFAE1BA6A /* AirlineAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0682C92BECF7C21B26743 /* AirlineAPI.swift */; };
+		CC0F7FD3E042AE27AAA508B2 /* AccountViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A581CB60290D6A75CAED721 /* AccountViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0074AF0FE8B1D1FE0927CF1D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0E5F1586BCBCCA5D9B78BF97 /* Pods_DarwiniumAirlines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarwiniumAirlines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA92AEB5C709750150C1FD8 /* Pods-DarwiniumAirlines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarwiniumAirlines.debug.xcconfig"; path = "Target Support Files/Pods-DarwiniumAirlines/Pods-DarwiniumAirlines.debug.xcconfig"; sourceTree = "<group>"; };
+		30A0682C92BECF7C21B26743 /* AirlineAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineAPI.swift; sourceTree = "<group>"; };
+		32BB636196F91ED59D7A4919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1731AD1E516416AE6B756E /* Pods-DarwiniumAirlines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarwiniumAirlines.release.xcconfig"; path = "Target Support Files/Pods-DarwiniumAirlines/Pods-DarwiniumAirlines.release.xcconfig"; sourceTree = "<group>"; };
+		56835FADD746563E249C8753 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A3F735CC245ADC58D791F52 /* DarwiniumAirlinesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarwiniumAirlinesApp.swift; sourceTree = "<group>"; };
+		5AD1DE2BCE8A31745B752BA5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		960CE227DC39536AFA64AB3B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9A581CB60290D6A75CAED721 /* AccountViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViews.swift; sourceTree = "<group>"; };
+		9F6F1FBF31BFF175C99EEFA5 /* BookingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViews.swift; sourceTree = "<group>"; };
+		C00035F1EF31A4B2DF5BE6F3 /* DwnProfiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DwnProfiler.swift; sourceTree = "<group>"; };
+		D91517BFBDECE389497A425B /* DarwiniumAirlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarwiniumAirlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F1E791C00B1A7F9B57B2D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3D4F8DDBEB4D116B14D4CA /* Pods_DarwiniumAirlines.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AF9C8E50EBED46FA5B8E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E5F1586BCBCCA5D9B78BF97 /* Pods_DarwiniumAirlines.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F4BD606C0F6D1645AE4919 /* DarwiniumAirlines */ = {
+			isa = PBXGroup;
+			children = (
+				5A3F735CC245ADC58D791F52 /* DarwiniumAirlinesApp.swift */,
+				785A62F6730D915597ED2079 /* Views */,
+				940241422371F7CD1058375F /* Model */,
+				9FA873F4150F9B6BD7DA6B3F /* Networking */,
+				CDCFE81EFA4C41B0794DE24C /* Profiling */,
+				32BB636196F91ED59D7A4919 /* Assets.xcassets */,
+			);
+			path = DarwiniumAirlines;
+			sourceTree = "<group>";
+		};
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				20F4BD606C0F6D1645AE4919 /* DarwiniumAirlines */,
+				86024CAD1E83101D97359D73 /* Products */,
+				FF5ED26CD2E14694D5BB1181 /* Pods */,
+				06AF9C8E50EBED46FA5B8E31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		785A62F6730D915597ED2079 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A581CB60290D6A75CAED721 /* AccountViews.swift */,
+				9F6F1FBF31BFF175C99EEFA5 /* BookingViews.swift */,
+				56835FADD746563E249C8753 /* HomeView.swift */,
+				F39F1E791C00B1A7F9B57B2D /* RootView.swift */,
+				5AD1DE2BCE8A31745B752BA5 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91517BFBDECE389497A425B /* DarwiniumAirlines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940241422371F7CD1058375F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				960CE227DC39536AFA64AB3B /* AppState.swift */,
+				0074AF0FE8B1D1FE0927CF1D /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FA873F4150F9B6BD7DA6B3F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				30A0682C92BECF7C21B26743 /* AirlineAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CDCFE81EFA4C41B0794DE24C /* Profiling */ = {
+			isa = PBXGroup;
+			children = (
+				C00035F1EF31A4B2DF5BE6F3 /* DwnProfiler.swift */,
+			);
+			path = Profiling;
+			sourceTree = "<group>";
+		};
+		FF5ED26CD2E14694D5BB1181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA92AEB5C709750150C1FD8 /* Pods-DarwiniumAirlines.debug.xcconfig */,
+				4D1731AD1E516416AE6B756E /* Pods-DarwiniumAirlines.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* DarwiniumAirlines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332F53C82F410CF08F794C6 /* Build configuration list for PBXNativeTarget "DarwiniumAirlines" */;
+			buildPhases = (
+				45AB62BDC77EE84DF9BFF981 /* [CP] Check Pods Manifest.lock */,
+				F2AB5FB218DA8B84623F4557 /* Sources */,
+				4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */,
+				55B558C7EF820E6E00E5993B /* Resources */,
+				CDF6F9A5952EC9DDE8594CB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarwiniumAirlines;
+			productName = DarwiniumAirlines;
+			productReference = D91517BFBDECE389497A425B /* DarwiniumAirlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4704357D31391BE81C31195C /* Build configuration list for PBXProject "DarwiniumAirlines" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* DarwiniumAirlines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B558C7EF820E6E00E5993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61143D204C27D8A3AD22D48C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45AB62BDC77EE84DF9BFF981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarwiniumAirlines-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF6F9A5952EC9DDE8594CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarwiniumAirlines/Pods-DarwiniumAirlines-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarwiniumAirlines/Pods-DarwiniumAirlines-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarwiniumAirlines/Pods-DarwiniumAirlines-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AB5FB218DA8B84623F4557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749DB40B66DE6CFAE66DC543 /* DarwiniumAirlinesApp.swift in Sources */,
+				CC0F7FD3E042AE27AAA508B2 /* AccountViews.swift in Sources */,
+				1C04295D1B261F3F65CBE3D5 /* BookingViews.swift in Sources */,
+				C45334068B2EC881FD08D5E0 /* HomeView.swift in Sources */,
+				0E635729765CAE0EF8CE9C4A /* RootView.swift in Sources */,
+				99736B22A0B4F1BAA266570C /* Theme.swift in Sources */,
+				87DADC4CD677CBC222232DF4 /* AppState.swift in Sources */,
+				4571D2D6103F014260611D6A /* Models.swift in Sources */,
+				C566B06D6A81812AFAE1BA6A /* AirlineAPI.swift in Sources */,
+				286C957ED01B92177E05D89F /* DwnProfiler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22F75101C717335ACF4089A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1731AD1E516416AE6B756E /* Pods-DarwiniumAirlines.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = QZE8P6YG2U;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Darwinium Airlines";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Darwinium Airlines uses your location to help protect your account and bookings from fraud.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darwinium.airlines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D53B50AE2273FABAAF8B8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4B2141B77146EF47E948847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7C752E798F561D7D156D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA92AEB5C709750150C1FD8 /* Pods-DarwiniumAirlines.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = QZE8P6YG2U;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Darwinium Airlines";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Darwinium Airlines uses your location to help protect your account and bookings from fraud.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darwinium.airlines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4704357D31391BE81C31195C /* Build configuration list for PBXProject "DarwiniumAirlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D53B50AE2273FABAAF8B8FA /* Debug */,
+				D4B2141B77146EF47E948847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6332F53C82F410CF08F794C6 /* Build configuration list for PBXNativeTarget "DarwiniumAirlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C752E798F561D7D156D98 /* Debug */,
+				22F75101C717335ACF4089A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

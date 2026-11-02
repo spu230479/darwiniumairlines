@@ -1,0 +1,11 @@
+framework module DwnSDK_Framework {
+  umbrella header "DwnSDK_Framework.h"
+  export *
+
+  module * { export * }
+}
+
+module DwnSDK_Framework.Swift {
+  header "DwnSDK_Framework-Swift.h"
+  requires objc
+}

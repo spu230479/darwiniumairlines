@@ -1,0 +1,29 @@
+PODS:
+  - dwn_ios_sdk (2.4.0):
+    - SwiftProtobuf (~> 1.0)
+  - SwiftProtobuf (1.39.0)
+
+DEPENDENCIES:
+  - "dwn_ios_sdk (from `https://packages.darwinium.com/sdk/dwn_ios_sdk.git`, tag `2.4.0`)"
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  dwn_ios_sdk:
+    :git: "https://packages.darwinium.com/sdk/dwn_ios_sdk.git"
+    :tag: 2.4.0
+
+CHECKOUT OPTIONS:
+  dwn_ios_sdk:
+    :git: "https://packages.darwinium.com/sdk/dwn_ios_sdk.git"
+    :tag: 2.4.0
+
+SPEC CHECKSUMS:
+  dwn_ios_sdk: 66d1c66fdbd756198350918ad45ae2d13b245f3c
+  SwiftProtobuf: eb2c3c26d43afb22247593e60e3163cdab2a0b4a
+
+PODFILE CHECKSUM: 9b49f4a83a856a2c77cb000cdc4c887f484cd3b2
+
+COCOAPODS: 1.17.0

@@ -1,0 +1,33 @@
+{
+  "name": "dwn_ios_sdk",
+  "version": "2.4.0",
+  "summary": "Darwinium iOS SDK",
+  "description": "This SDK will collect all kinds of iOS device information",
+  "homepage": "https://www.darwinium.com",
+  "license": {
+    "type": "DWN",
+    "text": "Copyright (C) Darwinium - All Rights Reserved\n\nThis source code is protected under international copyright law.  All rights\nreserved and protected by the copyright holders.\nThis file is confidential and only available to authorized individuals with the\npermission of the copyright holders.  If you encounter this file and do not have\npermission, please contact the copyright holders and delete this file.\n"
+  },
+  "authors": {
+    "Alan Yin": "ayin@darwinium.com"
+  },
+  "source": {
+    "git": "https://packages.darwinium.com/sdk/dwn_ios_sdk.git",
+    "tag": "2.4.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "ios": {
+    "vendored_frameworks": [
+      "Sources/DwnSDK_Framework.xcframework"
+    ]
+  },
+  "dependencies": {
+    "SwiftProtobuf": [
+      "~> 1.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

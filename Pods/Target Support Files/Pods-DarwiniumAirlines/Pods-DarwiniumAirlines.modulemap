@@ -1,0 +1,6 @@
+framework module Pods_DarwiniumAirlines {
+  umbrella header "Pods-DarwiniumAirlines-umbrella.h"
+
+  export *
+  module * { export * }
+}

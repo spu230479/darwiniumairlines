@@ -1,0 +1,46 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DwnSDK_Framework
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFAudio
+import AdSupport
+import AppTrackingTransparency
+import CallKit
+import SystemConfiguration.CaptiveNetwork
+import Combine
+import CommonCrypto
+import CoreLocation
+import CoreMotion
+import CoreTelephony
+import Darwin
+import Dispatch
+@_exported import DwnSDK_Framework
+import Foundation
+import LocalAuthentication
+import MachO
+import Network
+import ObjectiveC
+import Security
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_inheritsConvenienceInitializers public class DwnProfilingSDK : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+  @objc public func start(_ config: [Swift.String : Any] = [:])
+  @objc public func done() -> Swift.Bool
+  @objc public func stop()
+  @objc public func collect() -> Swift.String
+  @objc public func collectAsync(callback: @escaping (Swift.String) -> Swift.Void, timeoutInMillis: Swift.UInt32 = 15000)
+  @objc public func addTextField(placeholder: Swift.String, context: Swift.String)
+  @objc public func addTextField(tag: Swift.Int, context: Swift.String)
+  @objc public func addTextView(tag: Swift.Int, context: Swift.String)
+  @objc public func onFocusChange(_ focused: Swift.Bool, _ context: Swift.String)
+  @objc public func onTextChange(_ text: Swift.String, _ context: Swift.String)
+  @objc public func onKeyPress(_ key: Swift.String, _ context: Swift.String)
+}
